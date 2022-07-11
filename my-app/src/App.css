@@ -1,0 +1,39 @@
+
+  .cabecera1{
+    text-align: left;
+    color: white;
+  } 
+  .cabecera2{
+    text-align: left;
+    color: white;
+  } 
+ 
+.icono1{
+  margin: 50px;
+}
+.icono2{
+  margin: 50px;
+}
+.icono3{
+  margin: 50px;
+}
+.icono4{
+  margin: 50px;
+}
+.icono5{
+  float: left;
+  margin-left:150px ;
+}
+.icono6{
+  float: right;
+  margin-right: 150px;
+}
+.encabezado1{
+  color: white;
+}
+.encabezado2{
+color:white;
+}
+.encabezado3{
+  color: white;
+}
