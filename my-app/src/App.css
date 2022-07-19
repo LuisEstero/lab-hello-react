@@ -1,39 +1,64 @@
+.container{
+  display:flex;
+  flex-direction:column;
+  padding:20px;
+}
 
-  .cabecera1{
-    text-align: left;
-    color: white;
-  } 
-  .cabecera2{
-    text-align: left;
-    color: white;
-  } 
- 
-.icono1{
-  margin: 50px;
+.header{
+  background: #1F2535;
+  color:white;
+  justify-content: space-between;
+  padding:20px 80px 0 80px;
 }
-.icono2{
-  margin: 50px;
+
+.section{
+  display:flex;
+  padding:180px 0 180px 0;
+  justify-content: space-evenly;
 }
-.icono3{
-  margin: 50px;
+
+.headerImages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.icono4{
-  margin: 50px;
+#imageMenu{
+  width: 30px !important;
+  height: 20px !important;
 }
-.icono5{
-  float: left;
-  margin-left:150px ;
+.headerContent{
+  width: 50%;
+  margin-top:100px;
+  margin-bottom:100px;
 }
-.icono6{
-  float: right;
-  margin-right: 150px;
+.headerContentH1{
+  font-size: 100px;
+  margin-bottom:0 !important;
+  line-height: 90px;
 }
-.encabezado1{
-  color: white;
+.headerContentP{
+  font-size:20px;
+  margin-left:10px;
+  margin-bottom:100px;
 }
-.encabezado2{
-color:white;
+.headerContentButton{
+  color:#1F2535 !important;
+  background-color: white;
+  font-size:20px;
+  padding:25px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration-line: none;
 }
-.encabezado3{
-  color: white;
+.sectionH1{
+  color:#1F2535 !important;
+  font-size: 32px;
+  margin-top:15px;
+  margin-bottom:0px;
+}
+
+.sectionP{
+  font-size:20px;
+  color:rgb(126, 123, 123);
+  margin-top:5px;
 }
